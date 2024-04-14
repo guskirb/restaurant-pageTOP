@@ -1043,9 +1043,9 @@ const img2 = new Image();
 const img3 = new Image();
 const footer = document.querySelector(".headerBottom")
 
-img1.src = /* non-default import from non-esm module */undefined
-img2.src = /* non-default import from non-esm module */undefined
-img3.src = /* non-default import from non-esm module */undefined
+img1.src = _Resources_instagram_svg__WEBPACK_IMPORTED_MODULE_4__
+img2.src = _Resources_facebook_svg__WEBPACK_IMPORTED_MODULE_5__
+img3.src = _Resources_twitter_svg__WEBPACK_IMPORTED_MODULE_6__
 
 footer.appendChild(img1);
 footer.appendChild(img2);
