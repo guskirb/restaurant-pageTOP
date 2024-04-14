@@ -1024,9 +1024,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _about__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./about */ "./src/about.js");
 /* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu */ "./src/menu.js");
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
-/* harmony import */ var _Resources_instagram_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Resources/instagram.svg */ "./Resources/instagram.svg");
-/* harmony import */ var _Resources_facebook_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Resources/facebook.svg */ "./Resources/facebook.svg");
-/* harmony import */ var _Resources_twitter_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Resources/twitter.svg */ "./Resources/twitter.svg");
+
 
 
 
@@ -1038,18 +1036,10 @@ __webpack_require__.r(__webpack_exports__);
 const homeButton = document.getElementById("home")
 const aboutButton = document.getElementById("about")
 const menuButton = document.getElementById("menu")
-const img1 = new Image();
-const img2 = new Image();
-const img3 = new Image();
 const footer = document.querySelector(".headerBottom")
 
-img1.src = /* non-default import from non-esm module */undefined
-img2.src = /* non-default import from non-esm module */undefined
-img3.src = /* non-default import from non-esm module */undefined
 
-footer.appendChild(img1);
-footer.appendChild(img2);
-footer.appendChild(img3);
+
 
 (0,_home__WEBPACK_IMPORTED_MODULE_0__.homeLoad)()
 
